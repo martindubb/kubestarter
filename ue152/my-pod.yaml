@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+  namespace: default
+  labels:
+    run: my-pod
+spec:
+  containers:
+  - image: nginx
+    name: my-pod
+    resources: {}
+  - image: redis
+    name: redis
+    resources: {}
