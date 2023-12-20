@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: nginx-index
 data:
-  index2.html: |
+  index.html: |
     <h1>Hallo von der ConfigMap</h1>
